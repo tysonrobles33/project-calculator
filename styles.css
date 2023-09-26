@@ -40,6 +40,25 @@ header {
     justify-content: flex-end;
 }
 
+.numButton {
+    flex: 1 1 65px;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(110, 110, 110);
+}
+
+.opButton {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(110, 110, 110);
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
