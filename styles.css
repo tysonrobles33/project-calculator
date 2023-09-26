@@ -34,6 +34,12 @@ header {
     padding: 0;
 }
 
+.topButtons {   
+    display: flex;
+    margin-top: 100px;
+    justify-content: flex-end;
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
