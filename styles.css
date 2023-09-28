@@ -25,13 +25,24 @@ header {
 
 .display {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 2px;
     width: 250px;
     height: 100px;
     border-bottom: 2px solid black;
     background-color: rgb(157, 158, 158);
-    margin: 0;
-    padding: 0;
+}
+
+.current {
+    display: flex;
+    flex-direction: row;
+   outline: 1px solid black;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid black;
 }
 
 .topButtons {   
@@ -51,6 +62,15 @@ header {
 }
 
 .opButton {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(110, 110, 110);
+}
+
+#equal {
     height: 50px;
     width: 50px;
     margin: 0;
